@@ -5,4 +5,4 @@ const connection= new MongoClient(mongoURI)
 
 await connection.connect()
 
-export const db = connect.db('Cluster0')
+export const db = connection.db('Cluster0')

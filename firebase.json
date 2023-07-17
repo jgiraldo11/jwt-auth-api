@@ -3,7 +3,7 @@
     "public": "public",
     "rewrites": [{
       "source": "**",
-      "functon": "api"
+      "function": "api"
     }],
     "ignore": [
       "firebase.json",

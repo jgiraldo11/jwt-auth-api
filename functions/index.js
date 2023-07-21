@@ -12,7 +12,7 @@ app.post("/signup", signup)
 app.post("/login", login)
 
 // protected: (authenticated usrers only)
-app.get("/profile")
+app.get("/profile", getProfile)
 // app.patch("/profile")
 
 
